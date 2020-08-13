@@ -733,6 +733,31 @@
     </script>
 <!-- google map js -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+    
 <!-- end google map js -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDOMigHA7DKB_yEgeTWb-CLHf3UlJLiTxg",
+    authDomain: "it-services-c0b99.firebaseapp.com",
+    databaseURL: "https://it-services-c0b99.firebaseio.com",
+    projectId: "it-services-c0b99",
+    storageBucket: "it-services-c0b99.appspot.com",
+    messagingSenderId: "502609450548",
+    appId: "1:502609450548:web:1850e2f97eff3f70f81c61",
+    measurementId: "G-FHQ5SNS9N9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
+    
 </html>
